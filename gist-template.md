@@ -10,6 +10,7 @@ In this example, we will be looking at the following regular expression which wo
 
 Each component of this regex has a unique responsibility to make sure that a user enters an email address that begins with an unspecified number of characters preceding the @ symbol, followed by a domain.
 
+
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -19,10 +20,12 @@ Each component of this regex has a unique responsibility to make sure that a use
 - [Character Escapes](#character-escapes)
 - [Character Classes](#character-classes)
 - [Flags](#flags)
+- [Author](#author)
+- [Sources](#sources)
 
 ## Regex Components
 
-
+A regex is considered a literal, so the pattern must be wrapped in slash characters (/). Let's take a look at the components of a regex.
 
 ### Anchors
 
@@ -58,3 +61,6 @@ This gist was written by Jon Pfluger, a full-stack bootcamp student excited to s
 
 Github: https://github.com/jonpfluger
 
+#### Sources
+- https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial
+- https://www.regexpal.com/?fam=104026
