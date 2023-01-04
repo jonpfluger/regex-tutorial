@@ -29,7 +29,11 @@ A regex is considered a literal, so the pattern must be wrapped in slash charact
 
 ### Anchors
 
+The characters `^` and `$` are both anchors, but each has its own uses. 
 
+The `^` anchor means to look for a string that begins with the characters that follow it. The characters that follow can be specific, such as "cat" or "the cat", or you can use bracket expressions to find a range of possible matches. We will look at Bracket Expressions in more detail later.
+
+The `$` anchor means to look for a string that ends with the characters that precede it. The preceding characters behave the same way as the other anchor, where you can be specific or include bracket expressions.
 
 ### Bracket Expressions
 
