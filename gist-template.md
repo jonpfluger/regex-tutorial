@@ -37,7 +37,11 @@ The `$` anchor means to look for a string that ends with the characters that pre
 
 ### Bracket Expressions
 
+Bracket expressions `[]` are used to search for a range of characters. They are sometimes referred to as a "positive character group".
 
+Let's look at our email example again: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+
+The first bracket is looking for a string that may include any lowercase letter a-z, and/or may include any number 0-9, and/or may include the characters `_\.-` 
 
 ### Quantifiers
 
