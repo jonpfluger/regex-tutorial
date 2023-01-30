@@ -45,7 +45,7 @@ The first bracket is looking for a string that may include any lowercase letter 
 
 ### Quantifiers
 
-
+Quantifiers are used to set limits of the string were searching for. It is often used to set the minimum and maximum number of characters. In our email example, towards the end of it, we see `{2,6}`. That quantifier is setting the min max parameters onto the bracket expression that precedes it.
 
 ### Grouping Constructs
 
