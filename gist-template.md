@@ -49,7 +49,9 @@ Quantifiers are used to set limits of the string were searching for. It is often
 
 ### Grouping Constructs
 
+Grouping constructs `()` allow us to check multiple parts of a string. Each section inside parentheses is called a subexpression.
 
+In our email example, `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`, we have three subexpressions separated by the specific characters `@` and `.`
 
 ### Character Escapes
 
