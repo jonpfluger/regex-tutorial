@@ -55,7 +55,7 @@ In our email example, `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`, we ha
 
 ### Character Escapes
 
-
+The blackslash `\` in a regex escapes a character that would otherwise be interpreted literally. If we look back at the email example, we see `\.` being used to escape the period character.
 
 ### Character Classes
 
