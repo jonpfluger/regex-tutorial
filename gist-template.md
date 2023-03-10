@@ -59,7 +59,13 @@ The blackslash `\` in a regex escapes a character that would otherwise be interp
 
 ### Character Classes
 
+A character class defines a set of characters.
+- `.` Matches any character except the newline character (\n)
+- `\d` Matches any Arabic numerical digit. Equivalent to `[0-9]`
+- `\w` Matches any alphanumeric character from the basic Latin alphabet, including the underscore (_). Equivalent to `[A-Za-z0-9_]`
+- `\s` Matches a single whitespace character, including tabs and line breaks
 
+In our email example `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`, we see that the second bracket expression contains the character class `\d`, which is used instead of `[0-9]`.
 
 ### Flags
 
