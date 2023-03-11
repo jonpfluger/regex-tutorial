@@ -69,7 +69,10 @@ In our email example `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`, we see
 
 ### Flags
 
-
+Earlier we said that because a regex is a literal, it must be wrapped in slash characters. Flags are the one exception to this rule. They are placed after the final slash.
+- `g` Global search: test against all possible matches in a string.
+- `i` Case-insensitive search: case should be ignored while attempting a match in a string
+- `m` Multi-line search: a multi-line input string should be treated as multiple lines
 
 ## Author
 
